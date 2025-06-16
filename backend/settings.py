@@ -80,9 +80,9 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'refl3kt_db',           # Your database name
-        'USER': 'your_db_user',         # Your PostgreSQL user
-        'PASSWORD': 'your_db_password', # Your PostgreSQL password
+        'NAME': 'postgres',           # Your database name
+        'USER': 'postgres',         # Your PostgreSQL user
+        'PASSWORD': 'hrithiq21', # Your PostgreSQL password
         'HOST': 'localhost',
         'PORT': '5432',
     }
